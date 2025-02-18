@@ -1,78 +1,68 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
-    margin: auto;
-    padding: auto;
-    color: black;
-}
-h1, h2 {
-    color: blue;
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
     text-align: center;
-}
-
-h3 {
-    color: black;
-    text-align: center;
-}
-
-p {
-font-size: medium;
-text-align: center;
-}
-
-form{
-    background-color: beige;
     padding: 20px;
 }
 
-ul{
-    list-style: none;
-    color: purple;
-    padding: 0;
-    text-align: center;
+h1, h2, h3, p {
+    font-size: 24px;
 }
 
-ul li {
-font-size: xx-large;
-margin: 10px 0;
-}
-
-form {
-text-align: center;
-}
-
-ul li:nth-child(1) {
-    color: orange;
-}
-
-ul li:nth-child(2) {
-    color: blue;
-}
-
-ul li:nth-child(3) {
-color: purple;
-}
-
-h1:nth-of-type(1) {
-    color: orange;
-}
-h1:nth-of-type(2) {
-    color: blue;
-}
-h1:nth-of-type(3) {
-    color: purple;
-}
-
-.welcome {
-    font-size: 28px;
-    font-weight: 900;
-}
-
-strong {
-    font-size: 28px;
-    color:green;
-    font-style: italic;
+h1 {
+    font-size: 36px;
 }
 
 h2 {
-    color:blueviolet
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+    margin: 20px auto;
+}
+
+input, textarea, button {
+    padding: 10px;
+    font-size: 18px;
+    margin: 10px 0;
+    width: 80%;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.error {
+    border: 2px solid red;
+}
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2, h3, p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
